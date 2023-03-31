@@ -6,4 +6,4 @@ all: clean
 	$(CC) $(CFLAGS) -o game_of_life $(SOURCES) -lncurses
 
 clean:
-	-rm -rf *.o game_of_life
+	-rm -rf game_of_life
